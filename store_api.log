@@ -1,0 +1,542 @@
+2022-05-26T15:19:50.370Z [store_api] error: POST -  Please fill name, CPF, phone, email and address.
+2022-05-26T17:04:45.662Z [store_api] error: POST -  Please fill name, CPF, phone, email and address.
+2022-05-26T17:05:58.588Z [store_api] error: POST -  Please fill name, CPF, phone, email and address.
+2022-05-26T17:06:31.863Z [store_api] error: POST -  Please fill name, CPF, phone, email and address.
+2022-05-26T17:06:52.364Z [store_api] error: POST -  syntax error at or near "$"
+2022-05-26T17:11:17.765Z [store_api] error: POST -  loggers.info is not a function
+2022-05-26T17:14:35.840Z [store_api] info: POST /client - {"name":"fulano","cpf":"123456","phone":"279988552","email":"fulano@msn.com","address":"Rua A, n300"}
+2022-05-26T17:19:39.565Z [store_api] error: POST -  syntax error at or near "client_id"
+2022-05-26T17:22:58.872Z [store_api] info: POST /client - {"name":"fulano","cpf":"123456","phone":"279988552","email":"fulano@msn.com","address":"Rua A, n300"}
+2022-05-26T17:35:45.024Z [store_api] info: POST /client - {"name":"siclano","cpf":"1344456","phone":"27996543552","email":"ciclanoo@msn.com","address":"Rua C, n300"}
+2022-05-26T17:47:46.512Z [store_api] info: GET /clients
+2022-05-26T17:59:56.984Z [store_api] info: GET /clients
+2022-05-26T18:00:10.958Z [store_api] info: GET /clients
+2022-05-26T18:01:13.103Z [store_api] error: GET -  clientsRepository.getClient is not a function
+2022-05-26T18:02:27.462Z [store_api] error: GET -  column "values" does not exist
+2022-05-26T18:04:38.214Z [store_api] error: GET -  syntax error at or near "("
+2022-05-26T18:05:03.439Z [store_api] error: GET -  syntax error at or near "("
+2022-05-26T18:05:42.332Z [store_api] error: GET -  column "undefined" does not exist
+2022-05-26T18:06:02.166Z [store_api] error: GET -  Query values must be an array
+2022-05-26T18:06:42.273Z [store_api] error: GET -  client is not defined
+2022-05-26T18:07:58.913Z [store_api] error: GET -  client is not defined
+2022-05-26T18:08:51.230Z [store_api] info: GET /client - 1
+2022-05-26T18:09:26.104Z [store_api] info: GET /client - {"client_id":1,"name":"Paulo","cpf":"123456","phone":"279988552","email":"paulo@msn.com","address":"Rua x, n500"}
+2022-05-26T18:12:28.741Z [store_api] info: GET /client - {"client_id":1,"name":"Paulo","cpf":"123456","phone":"279988552","email":"paulo@msn.com","address":"Rua x, n500"}
+2022-05-26T18:12:33.218Z [store_api] info: GET /client - {"client_id":2,"name":"fulano","cpf":"123456","phone":"279988552","email":"fulano@msn.com","address":"Rua A, n300"}
+2022-05-26T18:15:04.100Z [store_api] info: GET /client - undefined
+2022-05-26T18:20:20.764Z [store_api] info: GET /client - {"client_id":5,"name":"fulano","cpf":"123456","phone":"279988552","email":"fulano@msn.com","address":"Rua A, n300"}
+2022-05-26T18:20:26.844Z [store_api] info: GET /client - undefined
+2022-05-26T18:21:11.742Z [store_api] info: GET /client - undefined
+2022-05-26T18:21:52.423Z [store_api] info: GET /client - {}
+2022-05-26T18:22:06.294Z [store_api] info: GET /client - {"client_id":1,"name":"Paulo","cpf":"123456","phone":"279988552","email":"paulo@msn.com","address":"Rua x, n500"}
+2022-05-26T18:22:57.141Z [store_api] info: GET /client - {"message":"ID não encontrado"}
+2022-05-26T18:29:31.426Z [store_api] info: DELETE /client - "10"
+2022-05-26T18:36:27.282Z [store_api] info: GET /client - {"message":"ID não encontrado"}
+2022-05-26T18:36:31.679Z [store_api] info: DELETE /client - "1"
+2022-05-26T18:37:29.944Z [store_api] info: DELETE /client - "2"
+2022-05-26T18:39:40.780Z [store_api] info: GET /clients
+2022-05-26T18:39:49.189Z [store_api] info: DELETE /client - "2"
+2022-05-26T18:39:54.463Z [store_api] info: DELETE /client - "4"
+2022-05-26T18:39:58.486Z [store_api] info: GET /clients
+2022-05-26T18:40:13.686Z [store_api] info: GET /clients
+2022-05-27T09:52:27.216Z [store_api] info: POST /client - {"client_id":8,"name":"beltrano","cpf":"18884456","phone":"279964323552","email":"beltrano@msn.com","address":"Rua Cassaco, n340"}
+2022-05-27T09:52:30.914Z [store_api] info: GET /clients
+2022-05-27T09:53:04.504Z [store_api] error: PUT -  Please fill name, CPF, phone, email, address and client ID.
+2022-05-27T09:53:36.752Z [store_api] error: PUT -  Please fill name, CPF, phone, email, address and client ID.
+2022-05-27T09:53:49.736Z [store_api] error: PUT -  Please fill name, CPF, phone, email, address and client ID.
+2022-05-27T09:54:41.108Z [store_api] error: PUT -  client_id is not defined
+2022-05-27T09:55:12.242Z [store_api] error: PUT -  client_id is not defined
+2022-05-27T09:55:46.321Z [store_api] error: PUT -  client_id is not defined
+2022-05-27T09:56:20.394Z [store_api] info: GET /clients
+2022-05-27T09:59:05.767Z [store_api] error: PUT -  client_id is not defined
+2022-05-27T10:00:11.381Z [store_api] info: PUT /client - {"client_id":8,"name":"beltrano","cpf":"18884456","phone":"279964323552","email":"beltrano@msn.com","address":"Rua Cassaco, n430"}
+2022-05-27T10:01:22.464Z [store_api] info: PUT /client - {"message":"ID não encontrado"}
+2022-05-27T10:01:34.080Z [store_api] info: PUT /client - {"client_id":8,"name":"beltrano","cpf":"18884456","phone":"279964323552","email":"beltrano@msn.com","address":"Rua Cassaco, n431"}
+2022-05-27T10:22:15.179Z [store_api] error: POST -  suppliersRepository.insertsupplier is not a function
+2022-05-27T10:22:55.858Z [store_api] info: POST /supplier - {"supplier_id":1,"name":"americanas","cnpj":"18884456","phone":"279964323552","email":"americanas@msn.com","address":"Rua x, n340"}
+2022-05-27T10:23:22.610Z [store_api] info: POST /supplier - {"supplier_id":2,"name":"tafarel","cnpj":"18833384456","phone":"2799623552","email":"taferel@msn.com","address":"Rua carapina, n330"}
+2022-05-27T10:23:25.414Z [store_api] info: GET /suppliers
+2022-05-27T10:23:54.884Z [store_api] info: POST /supplier - {"supplier_id":3,"name":"barracão","cnpj":"1834384456","phone":"2789623552","email":"barracao@msn.com","address":"Rua serra, n530"}
+2022-05-27T10:24:01.210Z [store_api] info: GET /supplier - {"supplier_id":1,"name":"americanas","cnpj":"18884456","phone":"279964323552","email":"americanas@msn.com","address":"Rua x, n340"}
+2022-05-27T10:24:04.341Z [store_api] info: GET /supplier - {"supplier_id":2,"name":"tafarel","cnpj":"18833384456","phone":"2799623552","email":"taferel@msn.com","address":"Rua carapina, n330"}
+2022-05-27T10:24:07.833Z [store_api] info: GET /supplier - {"message":"ID não encontrado"}
+2022-05-27T10:24:10.849Z [store_api] info: GET /supplier - {"supplier_id":3,"name":"barracão","cnpj":"1834384456","phone":"2789623552","email":"barracao@msn.com","address":"Rua serra, n530"}
+2022-05-27T10:24:20.727Z [store_api] info: DELETE /supplier - "4"
+2022-05-27T10:24:27.796Z [store_api] info: DELETE /supplier - "3"
+2022-05-27T10:24:47.973Z [store_api] info: DELETE /supplier - "3"
+2022-05-27T10:24:54.862Z [store_api] info: GET /supplier - {"message":"ID não encontrado"}
+2022-05-27T10:25:07.061Z [store_api] info: GET /suppliers
+2022-05-27T10:25:15.505Z [store_api] info: GET /supplier - {"supplier_id":1,"name":"americanas","cnpj":"18884456","phone":"279964323552","email":"americanas@msn.com","address":"Rua x, n340"}
+2022-05-27T10:25:49.264Z [store_api] info: PUT /supplier - {"supplier_id":2,"name":"tafarel","cnpj":"18833384456","phone":"2799623552","email":"taferel@msn.com","address":"Rua vila velha, n330"}
+2022-05-27T10:25:56.214Z [store_api] info: GET /suppliers
+2022-05-27T10:53:13.912Z [store_api] error: POST -  invalid input syntax for integer: "barracao@msn.com"
+2022-05-27T10:54:26.929Z [store_api] error: POST -  invalid input syntax for integer: "barracao@msn.com"
+2022-05-27T10:54:58.157Z [store_api] error: POST -  invalid input syntax for integer: "barracao@msn.com"
+2022-05-27T10:57:14.099Z [store_api] info: POST /product - {"product_id":1,"supplier_id":2,"name":"barracão","description":"1834384456","value":"23","stock":10}
+2022-05-27T10:57:50.906Z [store_api] info: PUT /product - {"product_id":1,"supplier_id":2,"name":"barracão","description":"1834384456","value":"23","stock":10}
+2022-05-27T10:57:54.345Z [store_api] info: GET /products
+2022-05-27T10:58:06.950Z [store_api] info: PUT /product - {"product_id":1,"supplier_id":2,"name":"borracha","description":"1834384456","value":"23","stock":10}
+2022-05-27T10:58:10.724Z [store_api] info: GET /products
+2022-05-27T10:58:35.120Z [store_api] error: POST -  insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-05-27T10:58:47.330Z [store_api] info: POST /product - {"product_id":3,"supplier_id":1,"name":"lapis","description":"183ccc dfsd84456","value":"2","stock":120}
+2022-05-27T10:58:51.719Z [store_api] info: GET /products
+2022-05-27T10:58:56.748Z [store_api] info: GET /product - {"product_id":1,"supplier_id":2,"name":"borracha","description":"1834384456","value":"23","stock":10}
+2022-05-27T10:58:59.685Z [store_api] info: GET /product - {"message":"ID não encontrado"}
+2022-05-27T10:59:10.883Z [store_api] info: GET /product - {"product_id":3,"supplier_id":1,"name":"lapis","description":"183ccc dfsd84456","value":"2","stock":120}
+2022-05-27T10:59:16.445Z [store_api] info: DELETE /product - "3"
+2022-05-27T10:59:19.863Z [store_api] info: GET /products
+2022-05-27T11:08:40.705Z [store_api] info: POST /product - {"product_id":4,"supplier_id":2,"name":"papek","description":"chamex","value":"12","stock":14}
+2022-05-27T11:08:46.824Z [store_api] info: GET /products
+2022-05-27T11:09:23.393Z [store_api] error: POST -  insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-05-27T11:10:14.786Z [store_api] error: POST -  insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-05-27T11:10:18.567Z [store_api] info: POST /product - {"product_id":7,"supplier_id":1,"name":"papel preto","description":"chamex","value":"12","stock":14}
+2022-05-27T11:13:35.695Z [store_api] error: POST -  insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-05-27T16:23:24.385Z [store_api] error: POST -  insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-05-27T16:23:53.459Z [store_api] error: PUT -  insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-05-27T16:26:21.343Z [store_api] info: GET /suppliers
+2022-05-27T16:27:29.083Z [store_api] error: POST -  insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-05-27T16:28:22.265Z [store_api] error: POST -  insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-05-27T16:29:11.158Z [store_api] info: GET /supplier - {"supplier_id":1,"name":"americanas","cnpj":"18884456","phone":"279964323552","email":"americanas@msn.com","address":"Rua x, n340"}
+2022-05-27T16:29:22.350Z [store_api] info: GET /supplier - {"message":"ID não encontrado"}
+2022-05-27T16:31:23.895Z [store_api] info: GET /supplier - {"message":"ID não encontrado"}
+2022-05-27T16:31:30.737Z [store_api] error: POST -  invalid input syntax for integer: "false"
+2022-05-27T16:32:01.420Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:32:07.210Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:32:17.706Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:32:53.755Z [store_api] info: GET /products
+2022-05-27T16:33:07.436Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:33:11.786Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:35:18.902Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:35:26.596Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:35:58.264Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:36:05.134Z [store_api] info: POST /product - {"product_id":12,"supplier_id":2,"name":"papel preto","description":"chamex","value":"12","stock":14}
+2022-05-27T16:36:33.626Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:36:46.931Z [store_api] info: POST /product - {"product_id":13,"supplier_id":2,"name":"papel preto","description":"chamex","value":"12","stock":14}
+2022-05-27T16:36:50.023Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:40:17.750Z [store_api] info: POST /product - {"product_id":14,"supplier_id":2,"name":"papel preto","description":"chamex","value":"12","stock":14}
+2022-05-27T16:40:23.566Z [store_api] error: POST -  Suppliers not found.
+2022-05-27T16:40:44.296Z [store_api] info: GET /products
+2022-05-27T16:42:59.131Z [store_api] error: PUT -  Suppliers not found.
+2022-05-27T16:43:07.581Z [store_api] info: PUT /product - {"product_id":1,"supplier_id":2,"name":"borracha","description":"4456","value":"23","stock":10}
+2022-05-27T16:43:30.579Z [store_api] info: PUT /product - {"product_id":1,"supplier_id":2,"name":"borracha","description":"4456","value":"23","stock":1045}
+2022-05-27T16:43:33.707Z [store_api] info: GET /products
+2022-05-28T13:18:13.452Z [store_api] info: GET /products
+2022-05-28T13:19:21.712Z [store_api] info: GET /product - {"message":"ID não encontrado"}
+2022-05-28T13:19:26.509Z [store_api] info: GET /product - {"product_id":4,"supplier_id":2,"name":"papek","description":"chamex","value":"12","stock":14}
+2022-05-29T14:27:02.659Z [store_api] info: GET /products
+2022-05-29T14:42:31.265Z [store_api] info: GET /sales
+2022-05-29T14:44:10.460Z [store_api] error: POST -  syntax error at or near ")"
+2022-05-29T14:44:47.234Z [store_api] error: POST -  insert or update on table "sales" violates foreign key constraint "fk_clients"
+2022-05-29T14:45:26.618Z [store_api] info: GET /clients
+2022-05-29T14:45:36.362Z [store_api] info: POST /sale - {"sale_id":2,"client_id":3,"product_id":14,"date":"2022-01-01T03:00:00.000Z","value":"3500"}
+2022-05-29T14:47:43.046Z [store_api] error: PUT -  could not determine data type of parameter $5
+2022-05-29T14:48:14.549Z [store_api] info: PUT /sale - {"sale_id":2,"client_id":3,"product_id":14,"date":"2022-01-01T03:00:00.000Z","value":"4000"}
+2022-05-29T14:48:20.412Z [store_api] info: POST /sale - {"sale_id":3,"client_id":3,"product_id":14,"date":"2022-01-01T03:00:00.000Z","value":"3500"}
+2022-05-29T14:48:27.624Z [store_api] info: GET /sales
+2022-05-29T14:48:42.961Z [store_api] info: DELETE /sale - "3"
+2022-05-29T14:50:23.992Z [store_api] info: DELETE /sale - "30"
+2022-05-29T14:51:38.112Z [store_api] info: GET /sales
+2022-05-29T14:52:26.537Z [store_api] error: POST -  clientRepository is not defined
+2022-05-29T14:54:11.834Z [store_api] error: POST -  product is not defined
+2022-05-29T14:54:39.072Z [store_api] error: POST -  Client not found.
+2022-05-29T14:54:39.113Z [store_api] error: POST -  Client not found.
+2022-05-29T14:54:43.829Z [store_api] info: POST /sale - {"sale_id":4,"client_id":3,"product_id":14,"date":"2022-01-01T03:00:00.000Z","value":"3500"}
+2022-05-29T14:57:12.244Z [store_api] error: POST -  Client not found.
+2022-05-29T14:58:38.669Z [store_api] error: POST -  Client or product not found.
+2022-05-29T14:58:46.577Z [store_api] info: POST /sale - {"sale_id":5,"client_id":3,"product_id":14,"date":"2022-01-01T03:00:00.000Z","value":"3500"}
+2022-05-29T14:58:50.680Z [store_api] error: POST -  Client or product not found.
+2022-05-29T14:58:57.592Z [store_api] error: POST -  Client or product not found.
+2022-05-29T14:59:03.685Z [store_api] info: POST /sale - {"sale_id":6,"client_id":3,"product_id":14,"date":"2022-01-01T03:00:00.000Z","value":"3200"}
+2022-05-29T15:04:58.926Z [store_api] error: POST -  Client not found.
+2022-05-29T15:05:04.711Z [store_api] error: POST -  Product not found.
+2022-05-29T15:05:10.785Z [store_api] error: POST -  Product not found.
+2022-05-29T15:05:15.062Z [store_api] error: POST -  Product not found.
+2022-05-29T15:05:20.849Z [store_api] info: GET /products
+2022-05-29T15:05:28.934Z [store_api] info: POST /sale - {"sale_id":7,"client_id":3,"product_id":4,"date":"2022-01-01T03:00:00.000Z","value":"3200"}
+2022-05-29T15:05:34.829Z [store_api] info: GET /sales
+2022-05-29T15:06:54.448Z [store_api] error: POST -  Client not found.
+2022-05-29T15:06:59.726Z [store_api] error: POST -  Product not found.
+2022-05-29T15:07:05.661Z [store_api] error: POST -  Client and product not found.
+2022-05-29T15:08:29.974Z [store_api] error: POST -  Cliente não encontrado,Produto não encontrado
+2022-05-29T15:08:42.322Z [store_api] error: POST -  insert or update on table "sales" violates foreign key constraint "fk_clients"
+2022-05-29T15:09:13.247Z [store_api] error: POST -  Cliente não encontrado
+2022-05-29T15:09:19.202Z [store_api] error: POST -  Produto não encontrado
+2022-05-29T15:09:23.089Z [store_api] error: POST -  Cliente não encontrado,Produto não encontrado
+2022-05-29T15:11:32.428Z [store_api] error: POST -  Cliente não encontrado,Produto não encontrado
+2022-05-29T15:16:14.587Z [store_api] info: GET /sales
+2022-05-29T15:16:30.947Z [store_api] error: PUT -  
+2022-05-29T15:17:44.849Z [store_api] info: GET /sales
+2022-05-29T15:18:00.046Z [store_api] error: PUT -  
+2022-05-29T15:19:17.392Z [store_api] error: PUT -  
+2022-05-29T15:19:25.808Z [store_api] info: GET /sales
+2022-05-29T15:19:57.405Z [store_api] error: PUT -  
+2022-05-29T15:21:36.986Z [store_api] info: PUT /sale - {"sale_id":7,"client_id":3,"product_id":4,"date":"2022-01-01T03:00:00.000Z","value":"300"}
+2022-05-29T15:21:44.170Z [store_api] info: GET /sales
+2022-05-29T15:22:12.832Z [store_api] info: PUT /sale - {"message":"ID não encontrado"}
+2022-05-29T15:22:18.084Z [store_api] error: PUT -  Cliente não encontrado
+2022-05-29T15:22:20.952Z [store_api] error: PUT -  Cliente não encontrado,Produto não encontrado
+2022-05-29T15:22:25.865Z [store_api] info: PUT /sale - {"sale_id":7,"client_id":3,"product_id":4,"date":"2022-01-01T03:00:00.000Z","value":"301"}
+2022-05-29T15:22:29.196Z [store_api] info: GET /sales
+2022-05-29T15:22:38.130Z [store_api] info: DELETE /sale - "30"
+2022-05-29T15:22:41.620Z [store_api] info: DELETE /sale - "5"
+2022-05-29T15:22:46.763Z [store_api] info: GET /sale - {"sale_id":4,"client_id":3,"product_id":14,"date":"2022-01-01T03:00:00.000Z","value":"3500"}
+2022-05-29T15:22:50.212Z [store_api] info: GET /sale - {"message":"ID não encontrado"}
+2022-05-29T17:05:22.412Z [store_api] info: GET /products
+2022-05-29T17:05:52.534Z [store_api] info: PUT /product - {"product_id":1,"supplier_id":2,"name":"borracha","description":"4456","value":"23","stock":1}
+2022-05-29T17:06:07.089Z [store_api] info: GET /products
+2022-05-29T17:06:28.034Z [store_api] error: POST -  
+2022-05-29T17:07:12.094Z [store_api] error: POST -  Cannot access 'sale' before initialization
+2022-05-29T17:08:47.747Z [store_api] error: POST -  Cannot access 'sale' before initialization
+2022-05-29T17:10:15.494Z [store_api] error: POST -  Cannot access 'sale' before initialization
+2022-05-29T17:10:41.770Z [store_api] info: POST /sale - {"sale_id":9,"client_id":3,"product_id":1,"date":"2022-01-01T03:00:00.000Z","value":"100"}
+2022-05-29T17:10:48.761Z [store_api] info: GET /products
+2022-05-29T17:10:53.842Z [store_api] error: POST -  O produto informado não possui estoque
+2022-05-29T17:17:20.292Z [store_api] info: GET /sales
+2022-05-29T17:18:43.304Z [store_api] info: GET /products
+2022-05-29T17:18:58.003Z [store_api] info: PUT /product - {"product_id":1,"supplier_id":2,"name":"borracha","description":"4456","value":"23","stock":10}
+2022-05-29T17:19:00.991Z [store_api] info: GET /products
+2022-05-29T17:19:13.633Z [store_api] info: POST /sale - {"sale_id":10,"client_id":3,"product_id":1,"date":"2022-01-01T03:00:00.000Z","value":"100"}
+2022-05-29T17:19:26.528Z [store_api] info: GET /sales
+2022-05-29T17:19:36.906Z [store_api] info: GET /products
+2022-05-29T17:19:55.054Z [store_api] info: DELETE /sale - "10"
+2022-05-29T17:20:58.034Z [store_api] info: POST /sale - {"sale_id":11,"client_id":3,"product_id":1,"date":"2022-01-01T03:00:00.000Z","value":"100"}
+2022-05-29T17:21:02.866Z [store_api] info: GET /sales
+2022-05-29T17:21:12.840Z [store_api] info: DELETE /sale - "11"
+2022-05-29T17:21:25.380Z [store_api] info: GET /products
+2022-05-29T17:21:39.432Z [store_api] info: POST /sale - {"sale_id":12,"client_id":3,"product_id":1,"date":"2022-01-01T03:00:00.000Z","value":"100"}
+2022-05-29T17:21:42.809Z [store_api] info: GET /products
+2022-05-29T17:21:51.248Z [store_api] info: GET /sales
+2022-05-29T17:21:57.098Z [store_api] info: DELETE /sale - "12"
+2022-05-29T17:22:02.896Z [store_api] info: GET /products
+2022-05-29T17:29:50.887Z [store_api] info: GET /sales
+2022-05-29T17:30:07.521Z [store_api] error: PUT -  Produto não encontrado
+2022-05-29T17:30:23.666Z [store_api] info: GET /products
+2022-05-29T17:30:36.275Z [store_api] error: PUT -  syntax error at or near "WHERE"
+2022-05-29T17:31:44.470Z [store_api] info: PUT /sale - {"sale_id":9,"client_id":3,"product_id":1,"date":"2022-01-01T03:00:00.000Z","value":"100"}
+2022-05-29T17:34:31.304Z [store_api] info: GET /sales
+2022-05-29T17:40:38.327Z [store_api] info: GET /sales
+2022-05-29T17:41:01.170Z [store_api] info: GET /sales
+2022-05-29T17:41:09.418Z [store_api] info: GET /sales
+2022-05-30T11:06:41.051Z [store_api] error: POST -  Please fill name, CPF, phone, email and address.
+2022-05-30T11:06:52.806Z [store_api] error: POST -  Please fill name, CPF, phone, email and address.
+2022-05-30T11:24:49.175Z [store_api] info: POST /client - {"client_id":9,"name":"beltrano","cpf":"18884456","phone":"279964323552","email":"beltrano@msn.com","address":"Rua Cassaco, n340"}
+2022-05-30T11:24:58.269Z [store_api] error: POST -  Please fill name, CPF, phone, email and address.
+2022-05-30T11:25:22.581Z [store_api] error: POST -  Unexpected token , in JSON at position 59
+2022-05-30T11:25:37.194Z [store_api] error: POST -  Please fill name, description, value, stock and supplier_id.
+2022-05-30T11:28:12.148Z [store_api] error: POST -  Please fill name, CPF, phone, email and address.
+2022-05-30T11:28:25.365Z [store_api] info: POST /client - {"client_id":10,"name":"fdsfdsfdsf","cpf":"18884456","phone":"279964323552","email":"beltrano@msn.com","address":"Rua Cassaco, n340"}
+2022-05-31T16:13:21.906Z [store_api] info: POST /client - {"clientId":11,"name":"BOB","cpf":"18884456","phone":"279964323552","email":"BOB@msn.com","address":"Rua dois, n340"}
+2022-05-31T16:13:50.143Z [store_api] info: DELETE /client - "11"
+2022-05-31T16:14:22.309Z [store_api] info: POST /client - {"clientId":12,"name":"BOB","cpf":"18884456","phone":"279964323552","email":"BOB@msn.com","address":"Rua dois, n340"}
+2022-05-31T16:14:32.232Z [store_api] info: DELETE /client - "11"
+2022-05-31T16:14:38.624Z [store_api] info: GET /clients
+2022-05-31T16:14:47.123Z [store_api] info: DELETE /client - "12"
+2022-05-31T16:14:50.406Z [store_api] info: GET /clients
+2022-05-31T16:14:56.144Z [store_api] info: GET /client - null
+2022-05-31T16:15:02.304Z [store_api] info: GET /client - null
+2022-05-31T16:15:05.453Z [store_api] info: GET /client - {"clientId":3,"name":"fulano","cpf":"123456","phone":"279988552","email":"fulano@msn.com","address":"Rua A, n300"}
+2022-05-31T16:15:09.746Z [store_api] info: GET /client - null
+2022-05-31T16:15:12.991Z [store_api] info: GET /client - {"clientId":5,"name":"fulano","cpf":"123456","phone":"279988552","email":"fulano@msn.com","address":"Rua A, n300"}
+2022-05-31T16:15:15.842Z [store_api] info: GET /client - {"clientId":6,"name":"fulano","cpf":"123456","phone":"279988552","email":"fulano@msn.com","address":"Rua A, n300"}
+2022-05-31T16:15:18.806Z [store_api] info: GET /client - {"clientId":7,"name":"siclano","cpf":"1344456","phone":"27996543552","email":"ciclanoo@msn.com","address":"Rua C, n300"}
+2022-05-31T16:15:21.488Z [store_api] info: GET /client - {"clientId":8,"name":"beltrano","cpf":"18884456","phone":"279964323552","email":"beltrano@msn.com","address":"Rua Cassaco, n431"}
+2022-05-31T16:15:24.139Z [store_api] info: GET /client - {"clientId":9,"name":"beltrano","cpf":"18884456","phone":"279964323552","email":"beltrano@msn.com","address":"Rua Cassaco, n340"}
+2022-05-31T16:15:26.999Z [store_api] info: GET /client - {"clientId":10,"name":"fdsfdsfdsf","cpf":"18884456","phone":"279964323552","email":"beltrano@msn.com","address":"Rua Cassaco, n340"}
+2022-05-31T16:15:30.133Z [store_api] info: GET /client - null
+2022-05-31T16:15:34.555Z [store_api] info: GET /client - null
+2022-05-31T16:15:51.703Z [store_api] info: GET /clients
+2022-05-31T16:16:59.797Z [store_api] info: GET /client - {"clientId":8,"name":"beltrano","cpf":"18884456","phone":"279964323552","email":"beltrano@msn.com","address":"Rua Cassaco, n431"}
+2022-05-31T16:17:13.846Z [store_api] error: PUT -  Please fill name, CPF, phone, email, address and client ID.
+2022-05-31T16:17:52.233Z [store_api] error: PUT -  Please fill name, CPF, phone, email, address and client ID.
+2022-05-31T16:18:30.882Z [store_api] info: PUT /client - {"clientId":8,"name":"beltrano DA SILVA","cpf":"18884456","phone":"279964323552","email":"beltrano@msn.com","address":"Rua Cassaco, n431"}
+2022-06-01T12:56:08.076Z [store_api] error: GET -  connect ECONNREFUSED 127.0.0.1:5432
+2022-06-01T12:57:56.563Z [store_api] error: GET -  connect ECONNREFUSED 127.0.0.1:5432
+2022-06-01T12:58:36.530Z [store_api] info: GET /clients
+2022-06-01T13:06:47.561Z [store_api] info: GET /clients
+2022-06-01T13:10:23.399Z [store_api] info: GET /suppliers
+2022-06-01T13:10:29.545Z [store_api] info: GET /products
+2022-06-01T13:12:15.631Z [store_api] info: GET /supplier - null
+2022-06-01T13:12:19.529Z [store_api] info: GET /supplier - {"supplierId":1,"name":"americanas","cnpj":"18884456","phone":"279964323552","email":"americanas@msn.com","address":"Rua x, n340"}
+2022-06-01T13:13:25.504Z [store_api] error: PUT -  Please fill name, CNPJ, phone, email, address, and supplier ID.
+2022-06-01T13:13:46.026Z [store_api] info: PUT /supplier - {"supplierId":2,"name":"tafarel","cnpj":"18833384456","phone":"2799623552","email":"taferel@msn.com","address":"Rua vila velha, n340"}
+2022-06-01T13:14:02.787Z [store_api] error: PUT -  Please fill name, description, value, stock, supplier_id, and product ID.
+2022-06-01T13:14:16.131Z [store_api] error: PUT -  Cannot read properties of null (reading 'message')
+2022-06-01T13:15:14.244Z [store_api] info: PUT /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T13:18:30.293Z [store_api] info: GET /suppliers
+2022-06-01T13:18:36.426Z [store_api] error: DELETE -  update or delete on table "suppliers" violates foreign key constraint "fk_suppliers" on table "products"
+2022-06-01T13:20:45.752Z [store_api] info: GET /products
+2022-06-01T13:21:41.459Z [store_api] info: DELETE /product - "7"
+2022-06-01T13:21:44.976Z [store_api] info: GET /products
+2022-06-01T13:21:51.606Z [store_api] info: DELETE /supplier - "1"
+2022-06-01T13:21:54.869Z [store_api] info: GET /suppliers
+2022-06-01T13:22:09.409Z [store_api] info: POST /supplier - {"supplierId":4,"name":"barracão","cnpj":"1834384456","phone":"2789623552","email":"barracao@msn.com","address":"Rua serra, n530"}
+2022-06-01T13:22:37.049Z [store_api] info: GET /suppliers
+2022-06-01T13:22:43.372Z [store_api] error: POST -  Please fill name, description, value, stock and supplier_id.
+2022-06-01T13:22:49.755Z [store_api] error: POST -  Cannot read properties of null (reading 'message')
+2022-06-01T13:23:04.083Z [store_api] info: GET /products
+2022-06-01T13:24:05.710Z [store_api] info: GET /suppliers
+2022-06-01T13:24:12.492Z [store_api] error: POST -  Cannot read properties of null (reading 'message')
+2022-06-01T13:24:31.927Z [store_api] error: POST -  Cannot read properties of null (reading 'message')
+2022-06-01T13:24:54.741Z [store_api] error: POST -  Cannot read properties of null (reading 'message')
+2022-06-01T13:26:02.645Z [store_api] info: POST /product - {"productId":15,"name":"catraca","description":"ximango","value":"5","stock":14,"supplierId":4}
+2022-06-01T13:26:37.745Z [store_api] error: POST -  Cannot read properties of null (reading 'message')
+2022-06-01T13:26:55.764Z [store_api] error: POST -  insert or update on table "products" violates foreign key constraint "fk_suppliers"
+2022-06-01T13:27:29.429Z [store_api] error: POST -  Suppliers not found.
+2022-06-01T13:27:44.176Z [store_api] info: POST /product - {"productId":17,"name":"cambio","description":"ximango","value":"50","stock":11,"supplierId":4}
+2022-06-01T13:28:31.075Z [store_api] info: GET /products
+2022-06-01T13:28:46.805Z [store_api] info: PUT /product - {"productId":17,"name":"cambio","description":"ximango","value":"50","stock":110,"supplierId":4}
+2022-06-01T13:28:50.281Z [store_api] error: PUT -  Suppliers not found.
+2022-06-01T13:28:54.961Z [store_api] error: PUT -  Suppliers not found.
+2022-06-01T13:28:58.943Z [store_api] info: PUT /product - {"productId":17,"name":"cambio","description":"ximango","value":"50","stock":110,"supplierId":2}
+2022-06-01T13:33:29.331Z [store_api] error: GET -  connect is not a function
+2022-06-01T16:10:58.080Z [store_api] info: GET /clients
+2022-06-01T16:11:09.851Z [store_api] info: POST /sale - {"saleId":13,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:11:20.658Z [store_api] error: GET -  connect is not a function
+2022-06-01T16:11:36.795Z [store_api] error: GET -  connect is not a function
+2022-06-01T16:14:04.209Z [store_api] info: GET /sales
+2022-06-01T16:16:04.170Z [store_api] error: GET -  sale is not associated to sale!
+2022-06-01T16:16:35.564Z [store_api] info: GET /sales
+2022-06-01T16:17:26.629Z [store_api] info: GET /sales
+2022-06-01T16:17:56.693Z [store_api] info: GET /sales
+2022-06-01T16:18:48.708Z [store_api] info: GET /sales
+2022-06-01T16:20:32.012Z [store_api] info: GET /sale - {"saleId":13,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:20:36.534Z [store_api] info: GET /sale - null
+2022-06-01T16:21:15.430Z [store_api] info: GET /sale - {"saleId":13,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:21:23.467Z [store_api] info: GET /sale - null
+2022-06-01T16:22:12.183Z [store_api] error: GET -  Unexistent ID
+2022-06-01T16:22:20.491Z [store_api] info: GET /sale - {"saleId":13,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:23:16.332Z [store_api] info: DELETE /sale - "13"
+2022-06-01T16:23:49.009Z [store_api] info: POST /sale - {"saleId":14,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:23:56.846Z [store_api] info: GET /sales
+2022-06-01T16:24:06.797Z [store_api] info: GET /sale - {"saleId":14,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:24:09.947Z [store_api] error: GET -  Unexistent ID
+2022-06-01T16:24:14.659Z [store_api] info: GET /sale - {"saleId":14,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:24:36.735Z [store_api] info: DELETE /sale - "14"
+2022-06-01T16:24:46.231Z [store_api] error: DELETE -  Unexistent ID
+2022-06-01T16:25:27.468Z [store_api] info: GET /sales
+2022-06-01T16:25:39.991Z [store_api] info: GET /products
+2022-06-01T16:26:23.536Z [store_api] info: GET /sales
+2022-06-01T16:26:39.086Z [store_api] error: DELETE -  Unexistent ID
+2022-06-01T16:26:43.719Z [store_api] info: GET /sales
+2022-06-01T16:27:02.735Z [store_api] info: DELETE /sale - "9"
+2022-06-01T16:27:05.703Z [store_api] info: GET /products
+2022-06-01T16:28:36.998Z [store_api] info: GET /sales
+2022-06-01T16:28:51.545Z [store_api] info: POST /sale - {"saleId":15,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:28:59.806Z [store_api] info: GET /products
+2022-06-01T16:29:45.603Z [store_api] error: POST -  Cannot read properties of null (reading 'message')
+2022-06-01T16:30:14.174Z [store_api] error: POST -  Produto não encontrado
+2022-06-01T16:30:20.251Z [store_api] error: POST -  Produto não encontrado
+2022-06-01T16:30:23.322Z [store_api] info: POST /sale - {"saleId":16,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:30:31.054Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:30:39.193Z [store_api] info: POST /sale - {"saleId":17,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:30:43.504Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:31:47.300Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:32:10.165Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:32:24.096Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:32:43.254Z [store_api] info: POST /sale - {"saleId":18,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:33:21.516Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:33:37.827Z [store_api] info: GET /sales
+2022-06-01T16:34:44.231Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:34:55.180Z [store_api] info: GET /sales
+2022-06-01T16:35:07.276Z [store_api] info: DELETE /sale - "18"
+2022-06-01T16:35:10.325Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:35:40.427Z [store_api] info: GET /sales
+2022-06-01T16:36:00.152Z [store_api] info: DELETE /sale - "17"
+2022-06-01T16:36:09.455Z [store_api] info: GET /products
+2022-06-01T16:36:19.583Z [store_api] error: GET -  invalid input syntax for integer: "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+2022-06-01T16:36:35.567Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:40:16.124Z [store_api] info: GET /sales
+2022-06-01T16:41:11.112Z [store_api] info: GET /sales
+2022-06-01T16:41:15.323Z [store_api] info: GET /sales
+2022-06-01T16:41:19.987Z [store_api] info: GET /sales
+2022-06-01T16:41:24.342Z [store_api] info: GET /sales
+2022-06-01T16:41:44.155Z [store_api] info: GET /sales
+2022-06-01T16:42:00.724Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:42:06.604Z [store_api] info: DELETE /sale - "15"
+2022-06-01T16:42:10.303Z [store_api] error: GET -  Unexistent ID
+2022-06-01T16:42:15.543Z [store_api] info: GET /sales
+2022-06-01T16:42:21.871Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:44:14.933Z [store_api] info: GET /sales
+2022-06-01T16:44:19.795Z [store_api] info: DELETE /sale - "16"
+2022-06-01T16:45:03.860Z [store_api] info: POST /sale - {"saleId":19,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:45:22.276Z [store_api] info: DELETE /sale - "19"
+2022-06-01T16:45:26.802Z [store_api] info: GET /products
+2022-06-01T16:45:30.430Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T16:46:39.081Z [store_api] info: GET /suppliers
+2022-06-01T16:47:02.176Z [store_api] info: GET /products
+2022-06-01T16:48:04.060Z [store_api] info: GET /sale - null
+2022-06-01T16:48:07.644Z [store_api] info: GET /sale - null
+2022-06-01T16:48:12.173Z [store_api] info: GET /sale - null
+2022-06-01T16:48:15.139Z [store_api] info: GET /sale - null
+2022-06-01T16:48:17.937Z [store_api] info: GET /sale - {"saleId":6,"value":"3200","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T16:48:26.382Z [store_api] info: GET /products
+2022-06-01T16:48:31.310Z [store_api] info: GET /product - {"productId":14,"name":"papel preto","description":"chamex","value":"12","stock":14,"supplierId":2}
+2022-06-01T16:48:43.141Z [store_api] info: GET /sales
+2022-06-01T16:48:55.608Z [store_api] info: DELETE /sale - "6"
+2022-06-01T16:49:00.683Z [store_api] info: GET /product - {"productId":14,"name":"papel preto","description":"chamex","value":"12","stock":14,"supplierId":2}
+2022-06-01T16:51:09.159Z [store_api] info: GET /sales
+2022-06-01T16:51:21.905Z [store_api] info: GET /product - {"productId":14,"name":"papel preto","description":"chamex","value":"12","stock":14,"supplierId":2}
+2022-06-01T16:51:37.931Z [store_api] info: DELETE /sale - "2"
+2022-06-01T16:51:44.475Z [store_api] info: GET /product - {"productId":14,"name":"papel preto","description":"chamex","value":"12","stock":14,"supplierId":2}
+2022-06-01T16:53:21.873Z [store_api] info: POST /sale - {"saleId":20,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T16:59:49.189Z [store_api] info: GET /sales
+2022-06-01T16:59:54.666Z [store_api] info: GET /sales
+2022-06-01T17:00:04.954Z [store_api] info: GET /sale - {"saleId":20,"value":"100","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T17:00:18.569Z [store_api] info: PUT /sale - undefined
+2022-06-01T17:00:23.275Z [store_api] info: GET /sales
+2022-06-01T17:01:28.734Z [store_api] info: PUT /sale - {"saleId":20,"value":"1012","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T17:01:57.269Z [store_api] info: GET /product - {"productId":1,"name":"borracha","description":"4456","value":"24","stock":10,"supplierId":2}
+2022-06-01T17:04:08.807Z [store_api] info: GET /sales
+2022-06-01T17:04:16.835Z [store_api] error: DELETE -  Can't delete a product from an existent sale
+2022-06-01T17:04:29.555Z [store_api] info: POST /product - {"productId":18,"name":"cambio","description":"ximango","value":"50","stock":11,"supplierId":4}
+2022-06-01T17:04:36.559Z [store_api] error: DELETE -  Can't delete a product from an existent sale
+2022-06-01T17:05:30.604Z [store_api] info: DELETE /product - "18"
+2022-06-01T17:05:36.525Z [store_api] info: GET /products
+2022-06-01T17:09:00.656Z [store_api] info: GET /sales
+2022-06-01T17:14:50.155Z [store_api] info: GET /sales
+2022-06-01T17:15:07.214Z [store_api] info: GET /suppliers
+2022-06-01T17:15:18.357Z [store_api] info: GET /sales
+2022-06-01T17:15:46.141Z [store_api] info: GET /sales
+2022-06-01T17:15:57.195Z [store_api] info: GET /sales
+2022-06-01T17:16:03.860Z [store_api] info: GET /sales
+2022-06-01T17:16:12.417Z [store_api] info: GET /sales
+2022-06-01T17:16:30.804Z [store_api] info: GET /products
+2022-06-01T17:16:41.710Z [store_api] info: POST /sale - {"saleId":21,"value":"100","date":"2022-01-01","clientId":3,"productId":15}
+2022-06-01T17:17:06.556Z [store_api] info: GET /sales
+2022-06-01T17:27:15.208Z [store_api] info: GET /products
+2022-06-01T17:29:08.574Z [store_api] info: GET /sales
+2022-06-01T17:29:21.897Z [store_api] info: GET /sales
+2022-06-01T17:30:06.019Z [store_api] info: DELETE /sale - "4"
+2022-06-01T17:30:25.378Z [store_api] info: GET /products
+2022-06-01T17:31:05.915Z [store_api] info: POST /sale - {"saleId":22,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T17:31:11.586Z [store_api] info: GET /products
+2022-06-01T17:33:53.872Z [store_api] error: DELETE -  Can't delete a product from an existent sale
+2022-06-01T17:34:03.638Z [store_api] info: GET /product - {"productId":14,"name":"papel preto","description":"chamex","value":"12","stock":14,"supplierId":2}
+2022-06-01T17:34:57.720Z [store_api] info: POST /sale - {"saleId":23,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T17:37:04.853Z [store_api] info: GET /sales
+2022-06-01T17:38:01.257Z [store_api] info: DELETE /sale - "23"
+2022-06-01T17:41:42.497Z [store_api] info: PUT /sale - {"saleId":20,"value":"500","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T17:44:46.429Z [store_api] info: GET /clients
+2022-06-01T17:45:12.109Z [store_api] error: PUT -  Unexpected end of JSON input
+2022-06-01T17:46:17.435Z [store_api] info: PUT /client - {"clientId":7,"name":"siclano","cpf":"1344456","phone":"27996543552","email":"ciclanoo@msn.com","address":"Rua D, n300"}
+2022-06-01T17:46:21.987Z [store_api] info: GET /clients
+2022-06-01T17:47:04.379Z [store_api] info: PUT /client - {"clientId":6,"name":"fulano","cpf":"123456","phone":"279988552","email":"fulano@GOOGLE.com","address":"Rua A, n300"}
+2022-06-01T17:47:09.248Z [store_api] info: GET /clients
+2022-06-01T17:47:47.900Z [store_api] info: PUT /product - {"productId":17,"name":"cambio","description":"ximango","value":"50","stock":11,"supplierId":2}
+2022-06-01T17:47:52.913Z [store_api] info: GET /products
+2022-06-01T17:48:51.083Z [store_api] info: POST /sale - {"saleId":24,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T17:49:14.943Z [store_api] error: DELETE -  Cannot read properties of null (reading 'productId')
+2022-06-01T17:49:45.131Z [store_api] info: GET /sales
+2022-06-01T17:51:35.903Z [store_api] error: DELETE -  Cannot read properties of null (reading 'productId')
+2022-06-01T17:51:53.469Z [store_api] error: DELETE -  Cannot read properties of null (reading 'productId')
+2022-06-01T17:52:49.191Z [store_api] error: DELETE -  Id not found
+2022-06-01T17:53:37.964Z [store_api] info: DELETE /sale - "24"
+2022-06-01T17:56:33.380Z [store_api] error: PUT -  Please fill name, description, value, stock, supplier_id, and product ID.
+2022-06-01T17:57:05.367Z [store_api] info: PUT /product - {"productId":14,"name":"papel preto","description":"chamex","value":"12","stock":1,"supplierId":2}
+2022-06-01T17:57:09.641Z [store_api] info: GET /products
+2022-06-01T17:57:21.540Z [store_api] info: POST /sale - {"saleId":25,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T17:57:23.453Z [store_api] info: POST /sale - {"saleId":26,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T17:57:26.034Z [store_api] info: POST /sale - {"saleId":27,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T17:57:30.368Z [store_api] info: GET /products
+2022-06-01T17:57:41.752Z [store_api] info: GET /sales
+2022-06-01T17:58:03.082Z [store_api] info: DELETE /sale - "25"
+2022-06-01T17:58:06.107Z [store_api] info: DELETE /sale - "26"
+2022-06-01T17:58:10.715Z [store_api] info: DELETE /sale - "27"
+2022-06-01T17:58:11.834Z [store_api] error: DELETE -  Id not found
+2022-06-01T17:59:46.386Z [store_api] error: POST -  Cannot access 'sale' before initialization
+2022-06-01T18:01:07.959Z [store_api] info: POST /sale - {"saleId":28,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:01:13.294Z [store_api] info: POST /sale - {"saleId":29,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:01:21.980Z [store_api] info: DELETE /sale - "28"
+2022-06-01T18:01:26.481Z [store_api] info: DELETE /sale - "29"
+2022-06-01T18:01:36.621Z [store_api] info: GET /product - {"productId":14,"name":"papel preto","description":"chamex","value":"12","stock":1,"supplierId":2}
+2022-06-01T18:05:47.976Z [store_api] info: POST /sale - {"saleId":30,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:06:58.425Z [store_api] info: DELETE /sale - "30"
+2022-06-01T18:07:02.760Z [store_api] info: GET /products
+2022-06-01T18:07:33.420Z [store_api] info: GET /sales
+2022-06-01T18:08:33.765Z [store_api] info: DELETE /sale - "22"
+2022-06-01T18:09:04.888Z [store_api] info: POST /sale - {"saleId":31,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:09:34.771Z [store_api] info: DELETE /sale - "31"
+2022-06-01T18:10:20.321Z [store_api] info: POST /sale - {"saleId":32,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:10:26.301Z [store_api] info: DELETE /sale - "32"
+2022-06-01T18:10:32.598Z [store_api] info: GET /products
+2022-06-01T18:11:23.903Z [store_api] info: PUT /sale - {"saleId":20,"value":"4400","date":"2022-01-01","clientId":3,"productId":1}
+2022-06-01T18:11:39.794Z [store_api] info: POST /sale - {"saleId":33,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:11:51.984Z [store_api] error: DELETE -  Id not found
+2022-06-01T18:11:58.264Z [store_api] info: DELETE /sale - "33"
+2022-06-01T18:12:25.625Z [store_api] info: POST /sale - {"saleId":34,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:12:31.025Z [store_api] info: DELETE /sale - "34"
+2022-06-01T18:13:30.606Z [store_api] info: POST /sale - {"saleId":35,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:13:31.763Z [store_api] info: POST /sale - {"saleId":36,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:13:32.953Z [store_api] info: POST /sale - {"saleId":37,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:13:38.312Z [store_api] info: GET /product - {"productId":14,"name":"papel preto","description":"chamex","value":"12","stock":1,"supplierId":2}
+2022-06-01T18:20:00.666Z [store_api] info: POST /sale - {"saleId":38,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:20:08.795Z [store_api] info: POST /sale - {"saleId":39,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:20:10.904Z [store_api] info: POST /sale - {"saleId":40,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:20:16.417Z [store_api] info: GET /products
+2022-06-01T18:22:56.744Z [store_api] info: POST /sale - {"saleId":41,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:23:49.403Z [store_api] info: POST /sale - {"saleId":42,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:24:12.531Z [store_api] info: DELETE /sale - "42"
+2022-06-01T18:24:19.494Z [store_api] info: DELETE /sale - "41"
+2022-06-01T18:24:42.208Z [store_api] error: DELETE -  Id not found
+2022-06-01T18:24:49.270Z [store_api] info: DELETE /sale - "40"
+2022-06-01T18:25:51.874Z [store_api] info: PUT /product - {"productId":14,"name":"papel preto","description":"chamex","value":"123","stock":1,"supplierId":2}
+2022-06-01T18:27:13.158Z [store_api] info: POST /sale - {"saleId":43,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:27:15.420Z [store_api] info: POST /sale - {"saleId":44,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:27:39.129Z [store_api] info: POST /sale - {"saleId":45,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:27:56.413Z [store_api] info: POST /sale - {"saleId":46,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:28:18.903Z [store_api] info: POST /sale - {"saleId":47,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:29:17.081Z [store_api] info: POST /sale - {"saleId":48,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:29:35.868Z [store_api] info: DELETE /sale - "48"
+2022-06-01T18:32:40.496Z [store_api] info: POST /sale - {"saleId":49,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:45:47.075Z [store_api] info: POST /sale - {"saleId":50,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:45:49.693Z [store_api] info: POST /sale - {"saleId":51,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:48:22.155Z [store_api] info: PUT /product - {"productId":14,"name":"papel preto","description":"chamex","value":"123","stock":2,"supplierId":2}
+2022-06-01T18:48:39.166Z [store_api] info: POST /supplier - {"supplierId":5,"name":"barracão","cnpj":"1834384456","phone":"2789623552","email":"barracao@msn.com","address":"Rua serra, n530"}
+2022-06-01T18:48:46.411Z [store_api] info: DELETE /supplier - "5"
+2022-06-01T18:48:59.388Z [store_api] info: DELETE /sale - "49"
+2022-06-01T18:49:19.089Z [store_api] info: GET /products
+2022-06-01T18:50:03.920Z [store_api] info: PUT /product - {"productId":14,"name":"papel preto","description":"chamex","value":"123","stock":1,"supplierId":2}
+2022-06-01T18:50:10.903Z [store_api] info: POST /sale - {"saleId":52,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:50:37.244Z [store_api] info: POST /sale - {"saleId":53,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-01T18:50:39.487Z [store_api] error: POST -  O produto informado não possui estoque
+2022-06-01T18:50:49.783Z [store_api] info: GET /sales
+2022-06-01T18:51:55.657Z [store_api] info: GET /products
+2022-06-01T18:52:03.031Z [store_api] info: DELETE /sale - "53"
+2022-06-01T18:52:10.191Z [store_api] info: DELETE /sale - "52"
+2022-06-01T18:52:12.690Z [store_api] info: GET /products
+2022-06-01T19:09:42.027Z [store_api] info: POST /sale - {"saleId":54,"value":"100","date":"2022-01-01","clientId":3,"productId":14}
+2022-06-03T11:56:16.312Z [store_api] info: GET /products
+2022-06-03T11:57:21.038Z [store_api] info: POST /product/info - undefined
+2022-06-03T11:58:50.549Z [store_api] info: POST /products/info - undefined
+2022-06-03T11:59:54.765Z [store_api] info: POST /products/info - {"acknowledged":true,"insertedId":"6299f7ba2e0a7a57693ba446"}
+2022-06-03T12:01:02.094Z [store_api] info: POST /products/info - {"acknowledged":true,"insertedId":"6299f7fe2e0a7a57693ba447"}
+2022-06-03T12:02:41.409Z [store_api] info: POST /products/info - {"acknowledged":true,"insertedId":"6299f8616e35bb67324cc8f3"}
+2022-06-03T12:44:29.202Z [store_api] info: PUT /products/info - {"acknowledged":true,"modifiedCount":1,"upsertedId":null,"upsertedCount":0,"matchedCount":1}
+2022-06-03T12:52:09.985Z [store_api] info: GET /product - {"productId":14,"name":"papel preto","description":"chamex","value":"123","stock":1,"supplierId":2}
+2022-06-03T12:56:47.260Z [store_api] info: GET /product - {"productId":14,"name":"papel preto","description":"chamex","value":"123","stock":1,"supplierId":2,"info":null}
+2022-06-03T13:00:13.469Z [store_api] info: GET /product - {"productId":12,"name":"papel preto","description":"chamex","value":"12","stock":14,"supplierId":2,"info":{"_id":"6299f8616e35bb67324cc8f3","productId":12,"quant":300,"type":"A2","cor":"preto","reviews":[]}}
+2022-06-03T13:56:53.178Z [store_api] info: POST /products/info - {"acknowledged":true,"insertedId":"629a132595b311e9d3007427"}
+2022-06-03T14:03:06.470Z [store_api] info: POST /products/info - {"acknowledged":true,"insertedId":"629a149a0e169454cb06f879"}
+2022-06-03T14:03:17.085Z [store_api] info: GET /products
+2022-06-03T14:03:23.852Z [store_api] info: GET /product - {"productId":12,"name":"papel preto","description":"chamex","value":"12","stock":14,"supplierId":2,"info":{"_id":"6299f8616e35bb67324cc8f3","productId":12,"quant":300,"type":"A2","cor":"preto","reviews":[]}}
+2022-06-03T14:03:28.739Z [store_api] info: GET /product - {"productId":4,"name":"papek","description":"chamex","value":"12","stock":14,"supplierId":2,"info":{"_id":"6299f7fe2e0a7a57693ba447","productId":4,"quant":300,"type":"A4","cor":"branco","reviews":[]}}
+2022-06-03T14:06:07.791Z [store_api] info: GET /product - {"productId":4,"name":"papek","description":"chamex","value":"12","stock":14,"supplierId":2,"info":{"_id":"6299f7fe2e0a7a57693ba447","productId":4,"quant":300,"type":"A4","cor":"branco","reviews":[]}}
+2022-06-03T14:07:25.718Z [store_api] error: GET -  invalid input syntax for integer: "teste"
+2022-06-03T14:07:56.915Z [store_api] error: GET -  invalid input syntax for integer: "teste"
+2022-06-03T14:11:27.501Z [store_api] error: GET -  invalid input syntax for integer: "reviews"
+2022-06-03T14:11:35.113Z [store_api] error: GET -  invalid input syntax for integer: "teste"
+2022-06-03T14:14:37.288Z [store_api] info: GET /product - {"productId":4,"name":"papek","description":"chamex","value":"12","stock":14,"supplierId":2,"info":{"_id":"6299f7fe2e0a7a57693ba447","productId":4,"quant":300,"type":"A4","cor":"branco","reviews":[]}}
+2022-06-03T14:19:42.707Z [store_api] error: POST -  client is not defined
+2022-06-03T15:30:39.782Z [store_api] error: DELETE -  productInfo.splice is not a function
+2022-06-03T15:31:21.150Z [store_api] error: DELETE -  productInfo.splice is not a function
+2022-06-03T15:32:03.057Z [store_api] error: DELETE -  productInfo.splice is not a function
+2022-06-03T15:44:02.619Z [store_api] error: GET -  invalid input syntax for integer: "info"
+2022-06-03T15:44:28.451Z [store_api] error: GET -  invalid input syntax for integer: "info"
+2022-06-03T15:45:51.400Z [store_api] info: GET /products/info
+2022-06-03T15:46:14.472Z [store_api] info: GET /products/info
+2022-06-03T15:47:03.666Z [store_api] info: GET /products/info
+2022-06-03T15:47:39.694Z [store_api] info: GET /products/info
+2022-06-03T15:53:16.019Z [store_api] info: GET /products/info
+2022-06-03T15:56:00.084Z [store_api] info: DELETE /products/info
+2022-06-06T17:41:12.717Z [store_api] info: GET /products
+2022-06-06T17:41:18.288Z [store_api] info: GET /product - {"productId":4,"name":"papek","description":"chamex","value":"12","stock":14,"supplierId":2,"info":{"_id":"629a132595b311e9d3007427","productId":4,"quant":300,"type":"A4","cor":"preto","reviews":[]}}
